@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F9AB55;
+  background-color: #BFB7B6;
 }
 
 code {
@@ -18,7 +18,7 @@ nav ul {
   list-style-type: none;
   margin: 0 auto;
   padding: 0,0,0,0;
-  box-shadow: 0 4px 6px -1px #084887, 0 2px 4px -1px #084887;
+  box-shadow: 0 4px 6px -1px #435058, 0 2px 4px -1px #435058;
   max-width: 430px;
   
 }
@@ -27,13 +27,13 @@ nav a {
   text-decoration: none;
   display: inline-block;
   padding: 1rem;
-  background-color: #F58A07;
+  background-color: #DCF763;
 }
 .main {
   padding: 1rem;
   position: fixed;
 }
 nav a.active {
-  background-color: #084887;
+  background-color: #848C8E;
   
 }

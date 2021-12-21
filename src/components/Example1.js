@@ -9,6 +9,7 @@ class Example1 extends Component {
     render() {
       return(
         <div className="Form">
+            <h1 style={{color:'#084887'}}>A Congratulatory Message!</h1>
           <form onSubmit={this.handleSubmit}>
             <div>
               <label style={{color: '#084887'}}> (Adjective) </label>
@@ -27,7 +28,7 @@ class Example1 extends Component {
               <input type="text" value={this.state.verb1} onChange={this.onverb1Change} />
             </div>
             <div>
-              <label style={{color: '#084887'}}> (Verb) </label>
+              <label style={{color: '#084887'}}> (Verb, Present Tense) </label>
               <input type="text" value={this.state.verb2} onChange={this.onverb2Change} />
             </div>
             <button>Generate!</button>
