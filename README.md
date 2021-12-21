@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# A surprise MadLibs project!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a pretty simple project with multiple scenarios in which you fill in some blank text boxes and watch as your results are displayed in the alert box.
 
-## Available Scripts
+## Homepage
 
-In the project directory, you can run:
+This is the homepage. It introduces the project:
+![Homepage](https://user-images.githubusercontent.com/91102600/146870247-5ca4ad21-98d7-4e41-b923-b34be2f51610.png)
 
-### `npm start`
+## Scenarios
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+There are routes in which each have a scenario. For example, here is the first scenario:
+![Scenario1](https://user-images.githubusercontent.com/91102600/146870593-d236a387-2c01-4965-818d-6d040ea4d9d8.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In each scenario there are a few text boxes which you fill, like this:
+![Scenariofilled](https://user-images.githubusercontent.com/91102600/146870891-e812e719-eb55-471b-96d6-400c567c6290.png)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+And once you fill each text box, all you do is click "Generate", and watch your words be placed on the secret message!:
+![Result](https://user-images.githubusercontent.com/91102600/146870936-7f674649-a9d6-4069-9f8b-d529d7cef722.png)
