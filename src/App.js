@@ -16,7 +16,7 @@ export default function App() {
             <Link to="/" activeClassName="active">Home</Link>
           </li>
           <li>
-          <Link to="example1" activeClassName="active">Example 1</Link>
+          <Link to="example1" activeClassName="active">Scenario 1</Link>
           </li>
           <li>
           <Link to="example2" activeClassName="active">Example 2</Link>
