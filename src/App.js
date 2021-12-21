@@ -22,7 +22,7 @@ export default function App() {
           <Link to="example2" activeClassName="active">Scenario 2</Link>
           </li>
           <li>
-          <Link to="example3" activeClassName="active">Example 3</Link>
+          <Link to="example3" activeClassName="active">Scenario 3</Link>
           </li>
         </ul>
       </nav>
