@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route, NavLink as Link, BrowserRouter } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home'
+import Example1 from './components/Example1'
+import Example2 from './components/Example2'
+import Example3 from './components/Example3'
 
-function App() {
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/" activeClassName="active">Home</Link>
+          </li>
+          <li>
+          <Link to="example1" activeClassName="active">Scenario 1</Link>
+          </li>
+          <li>
+          <Link to="example2" activeClassName="active">Scenario 2</Link>
+          </li>
+          <li>
+          <Link to="example3" activeClassName="active">Scenario 3</Link>
+          </li>
+        </ul>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="example1" element={<Example1/>} />
+        <Route path="example2" element={<Example2/>} />
+        <Route path="example3" element={<Example3/>} />
+      </Routes>
 
-export default App;
+    </div>
+  )
+}

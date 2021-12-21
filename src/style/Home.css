@@ -1,0 +1,15 @@
+h1.title{
+    display: flex;
+    justify-Content:center;
+    align-Items:center;
+    height: 20vh;
+    color:#435058;
+}
+
+h2.title{
+    display: flex;
+    justify-Content:center;
+    align-Items:center;
+    color:#435058;
+    
+}
